@@ -32,7 +32,7 @@ public class Main {
                 case 2 -> {//Thêm mới một bằng cấp
                     String degreeName = inputData.getString(sc,"Nhập tên bằng cấp:");
                     String emp_id = inputData.getString(sc,"Nhập mã nhân viên:");
-                    LocalDate date = inputData.getDate(sc, "Nhập vào ngày cấp bằng :");
+                    LocalDate date = inputData.getDate(sc, "Nhập vào ngày cấp bằng theo định dạng (dd/MM/yyyy):");
                     String school_name = inputData.getString(sc,"Nhập trường cấp bằng:");
                     int degree_year = inputData.getInt(sc,"Nhập năm cấp bằng:");
                     String degree_classification = inputData.getString(sc,"Nhập xếp loại:");
